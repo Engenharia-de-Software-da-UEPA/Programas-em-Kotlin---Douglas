@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Compras"
+        android:textAlignment="center"
+        android:layout_margin="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Arroz 5 Kg (R$ 36,30)" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Leite longa vida (R$ 8,75)" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Carne Picanha (R$ 76,78)" />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Feijão carioquinha 1 Kg (R$ 9,38)" />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Refrigerante coca-cola 2 litros (R$12,00)" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/campo1"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"/>
+</LinearLayout>
